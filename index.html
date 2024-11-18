@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade de JAVASCRIPT</title>
+</head>
+<body>
+    
+    <form action="receberdados.html">
+        <main>
+            <label for="nome">Nome</label>
+            <input type="text">
+            <label for="nome">Email</label>
+            <input type="text">
+            <label for="nome">Telefone</label>
+            <input type="text">
+            <label for="nome">CPF</label>
+            <input type="text" maxlength="14" id="codigo" oninput="cod()">
+            <label for="nome">Senha</label>
+            <input type="text">
+            <input type="submit" onclick="alerta()">
+        </main>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
